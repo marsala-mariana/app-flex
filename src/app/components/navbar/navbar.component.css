@@ -1,0 +1,27 @@
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar {
+  --bs-navbar-nav-link-padding-x: 2.5rem;
+  --bs-navbar-active-color: #370617;
+  background-color: rgba(0, 0, 0, 0.9);
+
+  width: 100%;
+  z-index: 100;
+  top: 0;
+}
+
+a.nav-link.active {
+  font-weight: 500;
+  font-size: 110%;
+  color: rgb(254 254 254 / 58%);
+}
+
+a.navbar-brand {
+  color: #dc3545;
+  font-weight: 500;
+}
+.navbar-toggler {
+  background-color: #dc3545;
+}
