@@ -1,7 +1,5 @@
 # AppFlex
 
-![Captura de pantalla 2023-03-22 145308](https://user-images.githubusercontent.com/101590740/226995470-819f2090-b63f-400a-aec6-b6ab5f8edf11.jpg)
-
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
 
