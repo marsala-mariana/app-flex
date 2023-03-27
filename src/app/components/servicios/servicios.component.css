@@ -1,3 +1,146 @@
-.container-fluid {
-  color: black;
+#servicios {
+  margin: auto;
+  display: flex;
+}
+
+#servicios .servi {
+  margin: 0 40px;
+}
+
+#servicios h2 {
+  font-size: 47px;
+  font-weight: bold;
+  margin: 33px 90px;
+  color: #018ec1;
+  text-align: center;
+}
+
+#servicios hr {
+  border-top: 4px solid;
+  color: #018ec1;
+  opacity: 1.25;
+}
+
+#servicios p {
+  font-size: 19px;
+  color: #111135;
+  font-weight: 499;
+  text-align: center;
+}
+
+#servicios img {
+  width: 41%;
+}
+
+#servicios .caja-img {
+  width: 33%;
+}
+
+#servicios .icon-text {
+  color: #f0aa0e;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  line-height: 4.2;
+}
+#servicios #parrafo-img {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2;
+  color: #565656;
+  margin-bottom: 0;
+}
+
+#boton-contenedor {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+/****BOTON*****/
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+.glow-on-hover {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.glow-on-hover:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: #000;
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #333333;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }

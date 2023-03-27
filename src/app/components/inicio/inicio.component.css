@@ -1,7 +1,8 @@
 #inicio {
   max-width: 1100px;
   margin: auto;
-  padding: 100pz 15px;
+  margin-bottom: 87px;
+  margin-top: 89px;
   color: #111135;
   display: flex;
 }
@@ -25,38 +26,53 @@
 }
 
 #inicio .sobremi h2 {
-  font-size: 66px;
+  font-size: 67px;
   font-weight: bold;
   margin: 20px 0;
-  letter-spacing: 5px;
-  margin-top: 80px;
+  letter-spacing: 4px;
+  margin-top: 82px;
 }
 
 #inicio .sobremi h2 span {
-  color: #076075;
+  color: #f0aa0e;
+}
+#inicio h3 {
+  font-size: 20px;
+  font-weight: 470;
+  padding-bottom: 11px;
 }
 
-/* *********************/
-/* seccion R E S P O N S I V E */
-/* *********************/
+#inicio .contenedor-lista {
+  margin-top: 36px;
+}
 
-@media screen and (max-width: 800px) {
+/* seccion R E S P O N S I V E */
+@media screen and (max-width: 700px) {
   #inicio {
-    padding: 50px 0;
     display: block;
   }
 
   #inicio .contenedor-foto {
-    max-width: 200px;
-    margin: auto;
+    max-width: 300px;
+    margin-top: 1px;
+    margin-left: 120px;
   }
 
   #inicio .contenedor-foto img {
     padding: 8px;
+    margin-bottom: 48px;
+    margin-left: 0px;
+    margin-top: 16px;
   }
 
   #inicio .sobremi h2 {
-    font-size: 25px;
-    text-align: center;
+    font-size: 47px;
+    text-align: inherit;
+    margin-top: 5px;
+  }
+  #inicio h3 {
+    text-align: justify;
+    font-size: 30px;
+    font-weight: 500;
   }
 }

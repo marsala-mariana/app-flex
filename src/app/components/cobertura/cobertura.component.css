@@ -1,0 +1,39 @@
+#cobertura {
+  background: rgba(0, 0, 0, 0) url(/assets/contac.jpg) no-repeat scroll center
+    center / cover;
+  background-size: cover;
+}
+#cobertura img {
+  height: auto;
+  max-width: 100%;
+  width: 45%;
+}
+#cobertura h2 {
+  position: relative;
+  font-weight: 800;
+  color: #fabe37;
+  margin-top: 40px;
+  font-size: 40px;
+}
+#cobertura hr {
+  width: 116px;
+  border-top: 3px solid;
+  color: #018ec1;
+  opacity: 1.25;
+  margin: 0rem 0;
+}
+#cobertura .single-price-plan {
+  -webkit-box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.09);
+  box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.09);
+
+  border-radius: 1rem;
+}
+
+#cobertura .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}

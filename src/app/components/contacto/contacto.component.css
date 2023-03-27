@@ -1,0 +1,102 @@
+#formulario-contac {
+  background-color: #f6f9fe;
+}
+
+#formulario-contac .container-fluid {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+/*
+#formulario-contac h1 {
+  font-weight: 800;
+  color: #fabe37;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#formulario-contact,
+.form-group {
+  height: 50px;
+  padding: 0 370px;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  border-radius: none;
+}
+#formulario-concat input {
+  font-size: 14px;
+}
+*/
+.get-in-touch {
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+}
+.get-in-touch .title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 42px;
+  line-height: 48px;
+  padding-bottom: 10px;
+  color: #fabe37;
+}
+
+.get-in-touch hr {
+  width: 116px;
+  border-top: 3px solid;
+  color: #018ec1;
+  opacity: 1.25;
+  margin: 0rem 0;
+  justify-content: center;
+}
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #018ec1;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+  transform: translateY(-24px);
+}
+.contact-form .label {
+  position: absolute;
+  justify-content: center;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #018ec1;
+  cursor: text;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+  background-image: linear-gradient(125deg, #018ec1, #ffc107);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 14px 16px;
+  border-radius: 36px;
+  width: 200px;
+  cursor: pointer;
+}
