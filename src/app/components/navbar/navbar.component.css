@@ -7,7 +7,8 @@
   width: 100%;
   z-index: 100;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  /*background-color: rgba(0, 0, 0, 0.8);*/
+  background-color: rgb(157 149 149 / 6%);
 }
 .navbar-toggler {
   background-color: white;
@@ -16,7 +17,7 @@
 a.nav-link.active {
   font-weight: 500;
   font-size: 110%;
-  color: #ffffff;
+  color: #111135;
 }
 
 h6 {

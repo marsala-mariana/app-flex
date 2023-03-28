@@ -6,29 +6,7 @@
   padding-bottom: 50px;
   padding-top: 50px;
 }
-/*
-#formulario-contac h1 {
-  font-weight: 800;
-  color: #fabe37;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  text-align: center;
-}
 
-#formulario-contact,
-.form-group {
-  height: 50px;
-  padding: 0 370px;
-  margin-bottom: 1rem;
-}
-
-.form-control {
-  border-radius: none;
-}
-#formulario-concat input {
-  font-size: 14px;
-}
-*/
 .get-in-touch {
   max-width: 800px;
   margin: 50px auto;
@@ -40,7 +18,7 @@
   font-size: 42px;
   line-height: 48px;
   padding-bottom: 10px;
-  color: #fabe37;
+  color: #111135;
 }
 
 .get-in-touch hr {
@@ -99,4 +77,17 @@
   border-radius: 36px;
   width: 200px;
   cursor: pointer;
+}
+
+/* seccion R E S P O N S I V E */
+
+@media screen and (max-width: 700px) {
+  .get-in-touch .title {
+    font-size: 42px;
+    color: #111135;
+  }
+  .contact-form {
+    width: 500px;
+    margin-left: 50px;
+  }
 }

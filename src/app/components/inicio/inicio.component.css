@@ -51,7 +51,9 @@
   #inicio {
     display: block;
   }
-
+  #inicio .contenedor-lista {
+    margin-left: 19px;
+  }
   #inicio .contenedor-foto {
     max-width: 300px;
     margin-top: 1px;
@@ -69,6 +71,7 @@
     font-size: 47px;
     text-align: inherit;
     margin-top: 5px;
+    margin-left: 28px;
   }
   #inicio h3 {
     text-align: justify;
