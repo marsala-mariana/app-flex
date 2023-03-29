@@ -7,6 +7,8 @@
   height: auto;
   max-width: 100%;
   width: 45%;
+  margin-right: 170px;
+  margin-top: 18px;
 }
 #cobertura h2 {
   position: relative;
@@ -36,4 +38,15 @@
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+}
+/* seccion R E S P O N S I V E */
+@media screen and (max-width: 700px) {
+  #cobertura h2 {
+    font-size: 27px;
+  }
+  #cobertura img {
+    width: 75%;
+    margin-right: 13px;
+    margin-top: 18px;
+  }
 }
