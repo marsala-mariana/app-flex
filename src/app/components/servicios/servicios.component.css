@@ -18,8 +18,9 @@
 #servicios p {
   font-size: 19px;
   color: #111135;
-  font-weight: 499;
+  font-weight: 400;
   text-align: center;
+  line-height: 2.2;
 }
 
 #servicios img {
@@ -38,7 +39,7 @@
   line-height: 4.2;
 }
 #servicios #parrafo-img {
-  font-size: 14px;
+  font-size: 19px;
   font-weight: 400;
   line-height: 2;
   color: #565656;

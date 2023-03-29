@@ -8,16 +8,15 @@
   z-index: 100;
   top: 0;
   /*background-color: rgba(0, 0, 0, 0.8);*/
-  background-color: rgb(157 149 149 / 6%);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .navbar-toggler {
   background-color: white;
 }
 
 a.nav-link.active {
-  font-weight: 500;
-  font-size: 110%;
-  color: #111135;
+  font-size: 100%;
+  color: #ffffff;
 }
 
 h6 {

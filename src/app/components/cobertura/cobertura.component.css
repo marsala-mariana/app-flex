@@ -6,14 +6,14 @@
 #cobertura img {
   height: auto;
   max-width: 100%;
-  width: 45%;
-  margin-right: 170px;
+  width: 51%;
+  margin-right: 27px;
   margin-top: 18px;
 }
 #cobertura h2 {
   position: relative;
-  font-weight: 800;
-  color: #fabe37;
+  font-weight: bold;
+  color: #111135;
   margin-top: 40px;
   font-size: 40px;
 }
